@@ -14,20 +14,109 @@ img {
     padding: 20px;
 }
 
-header{
-    background-color: #FF6900;
-    min-height: 50px;
-}
-
-footer{
-    background-color:#0E0E0E;
-    min-height: 50px;
+html{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 .row{
     display: flex;
 }
 
+/***header***/
+header{
+    background-color: #FF6900;
+    color: white;
+}
+
+.row.header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul>li{
+    padding: 5px;
+}
+
+.shop> a{
+    color: white;
+    
+    font-size: 15px;
+}
+
+.logo{
+    width: 150px;
+}
+/***main***/
+
+main .row{
+    flex-wrap: wrap;
+}
+
 .col{
     flex-basis: calc(100% / 3);
+    padding: 5px;
 }
+
+/***card***/
+.card{
+    position: relative;
+}
+
+.price{
+    text-decoration: line-through;
+}
+
+.special-price{
+    color: #FF0000;
+}
+
+.text-card .brand{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/***targhette***/
+.discount{
+    background-color: #FF0000;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.bio{
+    background-color: #008000;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.target{
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+}
+
+.like{
+    color: #0E0E0E;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+
+/***footer***/
+footer{
+    background-color:#0E0E0E;
+    min-height: 50px;
+}
+
+
