@@ -29,7 +29,7 @@ header{
     color: white;
 }
 
-.row.header{
+.row.justify.align{
     justify-content: space-between;
     align-items: center;
 }
@@ -43,7 +43,7 @@ ul>li{
     padding: 5px;
 }
 
-.shop> a{
+a{
     color: white;
     
     font-size: 15px;
@@ -116,7 +116,18 @@ main .row{
 /***footer***/
 footer{
     background-color:#0E0E0E;
-    min-height: 50px;
+    min-height: 100px;
+    color: white;
 }
+
+footer .informazioni a{
+    font-size: 12px;
+}
+
+.col-footer .fa{
+    color: white;
+    padding: 5px;
+}
+	
 
 
